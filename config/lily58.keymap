@@ -30,13 +30,13 @@
 // |  &sc  |  td1  |  td2  |  td3   |  td4   |  td5   |                   |  td6   |  td7    |  td8    |  td9   |   td00   |   `   |
 // |  TAB  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |   -   |
 // |  CTRL |  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   |   '   |
-// | SHIFT |  Z  |  X  |  C   |  D   |  V   |   "["  |  |  "]"  |  K   |  H    |  ,    |  .   |   /   |  |
+// | SHIFT |  X  |  C  |  D   |  V   |  Z   |   "["  |  |  "]"  |  K   |  H    |  ,    |  .   |   /   |  |
 //                     | ALT  | GUI  | td0|  LOWER |    | RAISE | ESC  | BSPC  | SHIFT   |
             bindings = <
 &kp ESC  &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                        &kp N6      &kp N7    &kp N8    &kp N9   &kp N0   &kp GRAVE
 &kp TAB   &kp Q  &kp W  &kp F    &kp P    &kp B                      &kp J  &kp L    &kp U     &kp Y   &kp X   &kp MINUS
 &kp LCTRL &kp A  &kp R  &kp S    &kp T    &kp G                      &kp M  &kp N    &kp E     &kp I   &kp O &kp SQT
-&kp LSHFT &kp Z  &kp X  &kp C    &kp D    &kp V  &kp LBKT   &kp RBKT &kp K  &kp H    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+&kp LSHFT &kp X  &kp C  &kp D    &kp V    &kp Z  &kp LBKT   &kp RBKT &kp K  &kp H    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                         &kp LALT &kp LGUI &td0   &mo 1      &mo 2    &kp ESC  &kp BSPC &kp RSHFT
             >;
 
