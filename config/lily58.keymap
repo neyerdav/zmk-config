@@ -104,7 +104,7 @@
 //                     | ALT  | GUI  | td0|  LOWER |    | RAISE | ESC  | BSPC  | SHIFT   |
             bindings = <
 &kp ESC   &td1   &td2   &td3     &td4     &td5                       &td6   &td7     &td8      &td9    &td00   &kp GRAVE
-&kp TAB   &kp Q  &kp W  &kp F    &kp P    &kp B                      &kp J  &kp L    &kp U     &kp Y   &kp x   &kp MINUS
+&kp TAB   &kp Q  &kp W  &kp F    &kp P    &kp B                      &kp J  &kp L    &kp U     &kp Y   &kp X   &kp MINUS
 &kp LCTRL &kp A  &kp R  &kp S    &kp T    &kp G                      &kp M  &kp N    &kp E     &kp I   &kp O &kp SQT
 &kp LSHFT &kp Z  &kp X  &kp C    &kp D    &kp V  &kp LBKT   &kp RBKT &kp K  &kp H    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                         &kp LALT &kp LGUI &td0   &mo 1      &mo 2    &kp ESC  &kp BSPC &kp RSHFT
