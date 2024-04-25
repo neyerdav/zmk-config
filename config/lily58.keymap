@@ -98,15 +98,15 @@
         default_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |  &sc  |  td1  |  td2  |  td3   |  td4   |  td5   |                   |  td6   |  td7    |  td8    |  td9   |   td00   |   `   |
-// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
-// |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   |  |
+// |  TAB  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |   -   |
+// |  CTRL |  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   |   '   |
+// | SHIFT |  Z  |  X  |  C   |  D   |  V   |   "["  |  |  "]"  |  K   |  H    |  ,    |  .   |   /   |  |
 //                     | ALT  | GUI  | td0|  LOWER |    | RAISE | ESC  | BSPC  | SHIFT   |
             bindings = <
 &kp ESC   &td1   &td2   &td3     &td4     &td5                       &td6   &td7     &td8      &td9    &td00   &kp GRAVE
-&kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O   &kp P    &kp MINUS
-&kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
-&kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+&kp TAB   &kp Q  &kp W  &kp F    &kp P    &kp B                      &kp J  &kp L    &kp U     &kp Y   &kp     &kp MINUS
+&kp LCTRL &kp A  &kp R  &kp S    &kp T    &kp G                      &kp M  &kp N    &kp E     &kp I   &kp O &kp SQT
+&kp LSHFT &kp Z  &kp X  &kp C    &kp D    &kp V  &kp LBKT   &kp RBKT &kp K  &kp H    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                         &kp LALT &kp LGUI &td0   &mo 1      &mo 2    &kp ESC  &kp BSPC &kp RSHFT
             >;
 
