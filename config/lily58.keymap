@@ -86,10 +86,10 @@
     // |  ESC  | UNDO | CUT  | COPY | PASTE| DEL  |        |  |       | INS  | BSPC | RET  |  [   |  ]   |  \   |
     //                      |      |      |      |        |  |       |      |      |      |
             bindings = <
-&java_sout &java_lambda &kp C_S &kp C_F  &kp C_R  &kp C_Z            &kp C_C     &kp C_V   &kp C_X   &kp C_A  &kp C_Y   &trans
+&java_sout &java_lambda &kp LC(S) &kp LC(F)  &kp LC(R)  &kp LC(Z)            &kp LC(C)     &kp LC(V)   &kp LC(X)   &kp LC(A)  &kp LC(Y)   &trans
     &kp F1    &kp F2     &kp F3     &kp F4     &kp F5    &kp F6           &kp F7      &kp F8    &kp F9    &kp F10  &kp F11   &kp F12
     &kp TAB   &kp LCTRL  &kp LALT   &kp LGUI   &kp HOME  &kp END          &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &kp PG_UP &kp PG_DN
-    &kp ESC   &kp C_UNDO &kp C_CUT  &kp C_COPY &kp C_PASTE &kp DEL &trans &trans      &kp INS   &kp BSPC  &kp RET   &kp LBKT  &kp RBKT  &kp BSLH
+    &kp ESC   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &kp DEL &trans &trans      &kp INS   &kp BSPC  &kp RET   &kp LBKT  &kp RBKT  &kp BSLH
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
