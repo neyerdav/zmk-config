@@ -1,0 +1,5 @@
+if(CONFIG_ZMK_DISPLAY AND CONFIG_ZMK_SPLIT_ROLE_CENTRAL AND CONFIG_SHIELD_NICE_VIEW)
+  zephyr_library()
+  zephyr_library_include_directories(${APPLICATION_SOURCE_DIR}/include)
+  zephyr_library_sources(src/battery_screen.c)
+endif()

@@ -19,8 +19,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: lily58_left
+    shield: lily58_left nice_view_adapter nice_view
+    cmake-args: -DCONFIG_NICE_VIEW_WIDGET_STATUS=n -DCONFIG_LV_USE_CANVAS=y -DCONFIG_LV_USE_IMG=y -DCONFIG_LV_FONT_MONTSERRAT_16=y -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
   - board: nice_nano_v2
-    shield: lily58_right nice_view_adapter nice_view
+    shield: lily58_right
   - board: nice_nano_v2
     shield: settings_reset

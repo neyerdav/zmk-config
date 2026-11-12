@@ -9,4 +9,8 @@ A QWERTY layout designed for programming without requiring home-row mods or comb
 
 Layers are momentary. Transparent keys retain their base-layer behavior. The layout intentionally removes the previous Java-specific macros and combos to avoid accidental activation while typing. Standard OS shortcuts use the dedicated modifiers; choose Ctrl or GUI according to your OS.
 
-Build with the repository's GitHub Actions workflow; it produces firmware for both halves and a separate settings-reset image. Flash the appropriate left/right firmware to each half.
+## Display and battery
+
+The build enables the nice!view on the **left** (central) half. Its custom screen shows left and right battery percentages; `R --` means a right-hand reading has not arrived yet. ZMK caches the last right-hand reading, so it may remain visible if that half disconnects. Battery readings require batteries and battery sensing on both controllers. The right build does not enable a display.
+
+Build with the repository's GitHub Actions workflow; it produces firmware for both halves and a separate settings-reset image. Flash the appropriate left/right firmware to each half. If building locally, use the left build's shield list and CMake options from `build.yaml`.
